@@ -1,5 +1,5 @@
 {
-  "name": "qna-nlp-react",
+  "name": "tfjsbert",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
