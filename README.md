@@ -7,9 +7,9 @@ Have fun!
 -->
 
 <p align="center">
-  <h3 align="center">README Template</h3> <!-- EDIT -->
+  <h3 align="center">BERT Q&A</h3> <!-- EDIT -->
   <p align="center">
-    A README template for when you quickly need to make a beautiful project description! <!-- EDIT -->
+    BERT Q&A is a webapp built with React, Node.js, Tensorflow.js, and BERT that enables users to recieve an answer based on the content of a given passage. <!-- EDIT -->
   </p>
   <!-- EDIT: Head over to https://shields.io/ to generate some beautiful shields! -->
 </p>
