@@ -38,9 +38,9 @@ The absolute coolest readme template around! <!-- EDIT -->
 
 <!-- EDIT -->
 - Frontend
-  - [Library](https://github.com/TGlide/README-TEMPLATE/) 
+  - React
 - Backend
-  - [Library](https://github.com/TGlide/README-TEMPLATE/)
+  - Node.js, Tensorflow.js
 - Tests
   - [Library](https://github.com/TGlide/README-TEMPLATE/)
 - Styling
