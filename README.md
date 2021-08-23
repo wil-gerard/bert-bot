@@ -7,16 +7,11 @@ Have fun!
 -->
 
 <p align="center">
-  <h3 align="center">README Template</h3> <!-- EDIT -->
+  <h3 align="center">BERT Q&A</h3> <!-- EDIT -->
   <p align="center">
-    A README template for when you quickly need to make a beautiful project description! <!-- EDIT -->
+    BERT Q&A is a webapp built with React, Node.js, Tensorflow.js, and BERT that enables users to recieve an answer based on the content of a given passage. <!-- EDIT -->
   </p>
   <!-- EDIT: Head over to https://shields.io/ to generate some beautiful shields! -->
-  <p align="center">
-    <a href="https://github.com/TGlide/README-TEMPLATE">
-      <img src="https://img.shields.io/badge/Built with-README Template-%23000000?style=for-the-badge&logo=read-the-docs" alt="Built with README Template">
-    </a>
-  </p>
 </p>
 
 <!-- EDIT: TABLE OF CONTENTS -->
@@ -43,9 +38,9 @@ The absolute coolest readme template around! <!-- EDIT -->
 
 <!-- EDIT -->
 - Frontend
-  - [Library](https://github.com/TGlide/README-TEMPLATE/) 
+  - React
 - Backend
-  - [Library](https://github.com/TGlide/README-TEMPLATE/)
+  - Node.js, Tensorflow.js
 - Tests
   - [Library](https://github.com/TGlide/README-TEMPLATE/)
 - Styling
