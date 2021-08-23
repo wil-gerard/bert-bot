@@ -12,11 +12,6 @@ Have fun!
     A README template for when you quickly need to make a beautiful project description! <!-- EDIT -->
   </p>
   <!-- EDIT: Head over to https://shields.io/ to generate some beautiful shields! -->
-  <p align="center">
-    <a href="https://github.com/TGlide/README-TEMPLATE">
-      <img src="https://img.shields.io/badge/Built with-README Template-%23000000?style=for-the-badge&logo=read-the-docs" alt="Built with README Template">
-    </a>
-  </p>
 </p>
 
 <!-- EDIT: TABLE OF CONTENTS -->
