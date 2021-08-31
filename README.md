@@ -29,7 +29,7 @@ Have fun!
 
 ## About The Project
 
-BERT Q&A is a webapp built with React, Node.js, Tensorflow.js, and BERT that enables users to recieve an answer based on the content of a given passage. <!-- EDIT -->
+BERT Q&A is a webapp built with React, Node, Tensorflow.js, and BERT that enables users to recieve an answer based on the content of a given passage. <!-- EDIT -->
 
 ### Built With
 
