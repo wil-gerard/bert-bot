@@ -1,8 +1,8 @@
 {
-  "name": "tfjsbert",
+  "name": "bert-qna",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://wil-gerard.github.io/qna-nlp-react",
+  "homepage": "http://wil-gerard.github.io/bert-qna",
   "dependencies": {
     "@tensorflow-models/qna": "^1.0.0",
     "@tensorflow/tfjs": "^2.4.0",
