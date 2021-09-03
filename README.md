@@ -32,10 +32,10 @@ BERT Q&A is an exploration in natural language processing. Users can ask a pretr
 
 #### 2. Install dependencies
 
-`yarn install` or `npm install`
+`npm install`
 
 #### 3. Run App
 
-`yarn start` or `npm start`
+`npm start`
 
 ## Preview
