@@ -1,89 +1,42 @@
-<!--
-Welcome to this README template!
-
-To help you navigate, in any section you want to edit, I've put a comment written EDIT.
-
-Have fun!
--->
-
 <p align="center">
   <h3 align="center">BERT Q&A</h3> <!-- EDIT -->
   <!-- EDIT: Head over to https://shields.io/ to generate some beautiful shields! -->
 </p>
 
-<!-- EDIT: TABLE OF CONTENTS -->
-
-## Table of Contents
-
-- [Table of Contents](#table-of-contents)
-- [About The Project](#about-the-project)
-  - [Built With](#built-with)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-- [Usage](#usage)
-  - [Run App](#run-app)
-  - [Preview](#preview)
-
-<!-- EDIT: ABOUT THE PROJECT -->
-
 ## About The Project
 
-BERT Q&A is a webapp built with React, Node, Tensorflow.js, and BERT that enables users to recieve an answer based on the content of a given passage. <!-- EDIT -->
+BERT Q&A is an exploration in natural language processing. Users can ask a pretrained Tensorflow model a question based on the context of a text passage and receive an answer.
 
-### Built With
+## Features
 
-<!-- EDIT -->
-- Frontend
-  - React
-- Backend
-  - Node.js, Tensorflow.js
-- Tests
-  - [Library](https://github.com/TGlide/README-TEMPLATE/)
-- Styling
-  - [Library](https://github.com/TGlide/README-TEMPLATE/)
+- Question and answer NLP
 
-## Getting Started
+## Built With
 
-<!-- EDIT -->
-To get a local copy up and running follow these simple steps.
+- React.js
+- Node.js
+- Tensorflow.js
+
+## Deployment
 
 ### Prerequisites
 
-<!-- EDIT -->
-`Cool framework here` installed on your local machine.
+- VS Code or any similar IDE supporting JavaScript ES6
+- Node.js 14 or higher
+- NPM 7 or higher
 
 ### Installation
 
 #### 1. Clone the repo
 
-```sh
-git clone https://github.com/EDIT
-cd EDIT
-```
+`git clone https://github.com/wil-gerard/bert-qna.git`
 
 #### 2. Install dependencies
 
-```sh
-EDIT
-```
+`yarn install` or `npm install`
 
-## Usage
+#### 3. Run App
 
-### Run App
+`yarn start` or `npm start`
 
-```sh
-EDIT
-```
-
-### Preview
-
-You can check out a live preview at: EDIT
-
-### Run Tests
-
-```sh
-EDIT
-```
-
-
+## Preview
