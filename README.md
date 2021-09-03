@@ -4,7 +4,7 @@
 
 ## About The Project
 
-BERT Q&A is an exploration in natural language processing. Users can ask a pretrained Tensorflow model a question based on the context of a text passage and receive an answer.
+BERT Q&A is a web app exploring natural language processing. Users ask a question and receive an answer based on the context of a text passage.
 
 ## Features
 
