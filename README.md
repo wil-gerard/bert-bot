@@ -1,6 +1,5 @@
 <p align="center">
-  <h3 align="center">BERT Q&A</h3> <!-- EDIT -->
-  <!-- EDIT: Head over to https://shields.io/ to generate some beautiful shields! -->
+  <h3 align="center">BERT Q&A</h3>
 </p>
 
 ## About The Project
