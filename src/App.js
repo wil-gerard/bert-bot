@@ -51,12 +51,13 @@ const App = () => {
       { model == null ? 
       // Ternary operator checking if the model is null -> if model is null, loader spinner function appears
         <div> 
-          <div>BERT is Loading...</div>
+          <div className="loader-text">BERT is Loading...</div>
           <Loader
             type="Puff"
-            color="#00BFFF"
+            color="#2886E7"
             height={100}
-            width={100}/>
+            width={100}
+            />
         </div>
         :
         // -> if model is not null (has loaded) fragment function runs to define UI
@@ -69,7 +70,7 @@ const App = () => {
           <div>
             <div>Answers</div>
             <div>
-              {answer ? answer.map((answer, index) => <div> <b> Answer {index + 1} - </b> {answer.text} ({ Math.floor(answer.score * 100) / 100 }) </div>) : ""}
+              {answer ? answer.map((answer, index) => <div> <b> Answer {index + 1} - </b> {answer.text} Confidence level: { Math.floor(answer.score * 100) / 100 } </div>) : ""}
             </div>
           </div> 
         </> 
