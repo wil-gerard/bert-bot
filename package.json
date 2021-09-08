@@ -2,7 +2,6 @@
   "name": "bert-bot",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://wil-gerard.github.io/bert-qna",
   "dependencies": {
     "@material-ui/core": "^4.12.3",
     "@tensorflow-models/qna": "^1.0.0",
