@@ -67,7 +67,7 @@ const App = () => {
           :
           // -> if model is not null (has loaded) fragment function runs to define UI
           <>
-            <Typography variant="h2" style={{ fontWeight: 600}}>{`BERT Q&A`}</Typography>
+            <Typography variant="h2" style={{ fontWeight: 600}}>{`BERT Bot`}</Typography>
                 <TextField
                   label="Text passage"
                   variant="outlined"
