@@ -8,7 +8,7 @@ BERT bot is a web app exploring natural language processing. Users ask a questio
 
 ## Features
 
-- Question and answer NLP
+- Question and answer using AI
 
 ## Built With
 
@@ -29,7 +29,7 @@ BERT bot is a web app exploring natural language processing. Users ask a questio
 
 #### 1. Clone the repo
 
-`git clone https://github.com/wil-gerard/bert-qna.git`
+`git clone https://github.com/wil-gerard/bert-bot.git`
 
 #### 2. Install dependencies
 
@@ -40,3 +40,5 @@ BERT bot is a web app exploring natural language processing. Users ask a questio
 `npm start`
 
 ## Preview
+
+![bert-bot-preview](https://user-images.githubusercontent.com/74286884/132595458-48000470-ce23-42fd-b010-fc190333d986.gif)
