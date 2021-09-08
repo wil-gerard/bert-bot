@@ -57,44 +57,44 @@ const App = () => {
         {model == null ?
           // Ternary operator checking if the model is null -> if model is null, loader spinner function appears
           <div>
-            <div className="loader-text">BERT is Loading...</div>
+            <div className="loader-text">BERT model is loading...</div>
             <Loader
               type="Puff"
               color="#2886E7"
-              height={100}
-              width={100}
+              height={120}
+              width={120}
             />
           </div>
           :
           // -> if model is not null (has loaded) fragment function runs to define UI
           <>
             <h1>{`BERT Q&A`}</h1>
-            <Grid container alignItems="center" justifyContent="center" direction="column" spacing={2}>
-              <Grid item xs={4} sm={4}>
                 <TextField
                   label="Text passage"
                   variant="outlined"
                   multiline
+                  margin="dense"
                   inputRef={passageRef}
+                  style= {{width: 700}}
                   defaultValue={`The discography of Black Sabbath, an English heavy metal band, includes 19 studio albums, eight live albums, 16 compilation albums, seven video albums, one extended play and 30 singles. The band was formed in 1968 by John "Ozzy" Osbourne (vocals), Tony Iommi (lead guitar), Terence "Geezer" Butler (bass guitar), and Bill Ward (drums). Throughout their history, the band experienced multiple lineup changes.[1] Though the second most recent line-up of the band to work together were Ronnie James Dio, Vinny Appice, Iommi, and Butler, for three new songs for a compilation in 2007, the original line-up was still considered the "current" lineup at the time and had been since their reunion in 1997. The 2007 sessions were deemed a one-off which led to the Heaven and Hell side project, resulting in a new studio album in 2009 titled The Devil You Know. In June 2013, a partial reformation of the original line-up released 13, which was the first album to feature Osbourne on vocals since 1978's Never Say Die!. After 49 years together, Black Sabbath announced their breakup in March 2017.`}
                 />
-              </Grid>
-              <Grid item xs={4} sm={4}>
+
+
                 <TextField
+                  margin="dense"
                   variant="outlined"
                   label="Ask a Question"
                   inputRef={questionRef}
-                  multiline
+                  style= {{width: 400}}
                   type="text"
                   defaultValue="When was Black Sabbath formed?"
                 />
-              </Grid>
+
               <Button variant="contained" onClick={answerQuestion} type="submit">submit</Button>
-            </Grid>
-            <div>
-              <div>Answers</div>
+            <div className="answer-container">
+              <h2>Answers</h2>
               <div>
-                {answer ? answer.map((answer, index) => <div> <b> Answer {index + 1} - </b> {answer.text} Confidence level: {Math.floor(answer.score * 100) / 100} </div>) : ""}
+                {answer ? answer.map((answer) => <div className="answers"> <b> Confidence level: {Math.floor(answer.score * 100) / 100} - </b> {answer.text}   </div>) : ""}
               </div>
             </div>
           </>
