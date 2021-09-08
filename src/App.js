@@ -56,7 +56,7 @@ const App = () => {
         {model == null ?
           // Ternary operator checking if the model is null -> if model is null, loader spinner function appears
           <div>
-            <Typography variant="h3" style={{ fontWeight: 600}}>loading BERT model...</Typography> 
+            <Typography variant="h3" color="textPrimary" style={{ fontWeight: 600 }}>loading BERT model...</Typography>
             <Loader
               type="Puff"
               color="#2886E7"
@@ -67,35 +67,35 @@ const App = () => {
           :
           // -> if model is not null (has loaded) fragment function runs to define UI
           <>
-            <Typography variant="h2" style={{ fontWeight: 600}}>{`BERT Bot`}</Typography>
-                <TextField
-                  label="Text passage"
-                  variant="outlined"
-                  multiline
-                  margin="dense"
-                  inputRef={passageRef}
-                  style= {{width: 700}}
-                  defaultValue={`The discography of Black Sabbath, an English heavy metal band, includes 19 studio albums, eight live albums, 16 compilation albums, seven video albums, one extended play and 30 singles. The band was formed in 1968 by John "Ozzy" Osbourne (vocals), Tony Iommi (lead guitar), Terence "Geezer" Butler (bass guitar), and Bill Ward (drums). Throughout their history, the band experienced multiple lineup changes.[1] Though the second most recent line-up of the band to work together were Ronnie James Dio, Vinny Appice, Iommi, and Butler, for three new songs for a compilation in 2007, the original line-up was still considered the "current" lineup at the time and had been since their reunion in 1997. The 2007 sessions were deemed a one-off which led to the Heaven and Hell side project, resulting in a new studio album in 2009 titled The Devil You Know. In June 2013, a partial reformation of the original line-up released 13, which was the first album to feature Osbourne on vocals since 1978's Never Say Die!. After 49 years together, Black Sabbath announced their breakup in March 2017.`}
-                />
+            <Typography variant="h2" style={{ fontWeight: 600 }}>{`BERT Bot`}</Typography>
+            <TextField
+              label="Text passage"
+              variant="outlined"
+              multiline
+              margin="dense"
+              inputRef={passageRef}
+              style={{ width: 700 }}
+              defaultValue={`In probability theory and statistics, Bayes' theorem (alternatively Bayes' law or Bayes' rule; recently Bayes–Price theorem[1]:44, 45, 46 and 67), named after the Reverend Thomas Bayes, describes the probability of an event, based on prior knowledge of conditions that might be related to the event.[2] For example, if the risk of developing health problems is known to increase with age, Bayes' theorem allows the risk to an individual of a known age to be assessed more accurately (by conditioning it on their age) than simply assuming that the individual is typical of the population as a whole. One of the many applications of Bayes' theorem is Bayesian inference, a particular approach to statistical inference. When applied, the probabilities involved in the theorem may have different probability interpretations. With Bayesian probability interpretation, the theorem expresses how a degree of belief, expressed as a probability, should rationally change to account for the availability of related evidence. Bayesian inference is fundamental to Bayesian statistics.`}
+            />
 
-                <div className="question">
-                <TextField
-                  margin="dense"
-                  variant="outlined"
-                  label="Ask a Question"
-                  inputRef={questionRef}
-                  style= {{width: 600}}
-                  type="text"
-                  defaultValue="When was Black Sabbath formed?"
-                />
-<Button style={{margin: "8px 0 4px 6px"}} variant="outlined" onClick={answerQuestion} type="submit">submit</Button>
-</div>
+            <div className="question">
+              <TextField
+                margin="dense"
+                variant="outlined"
+                label="Ask a Question"
+                inputRef={questionRef}
+                style={{ width: 600 }}
+                type="text"
+                defaultValue="What is Bayes' theorem?"
+              />
+              <Button style={{ margin: "8px 0 4px 6px" }} variant="outlined" onClick={answerQuestion} type="submit">submit</Button>
+            </div>
 
-              
+
             <div className="answer-container">
-              <Typography variant="h4" style={{ fontWeight: 600}}>Answers</Typography>
+              <Typography variant="h4" style={{ fontWeight: 600 }}>Answers</Typography>
               <div>
-                {answer ? answer.map((answer, index) => <Typography align="left"> <b>{ index + 1 }.</b> {answer.text}  (Confidence level: {Math.floor(answer.score * 100) / 100}) </Typography>) : ""}
+                {answer ? answer.map((answer, index) => <Typography align="left"> <b>{index + 1}.</b> {answer.text}  (Confidence level: {Math.floor(answer.score * 100) / 100}) </Typography>) : ""}
               </div>
             </div>
           </>

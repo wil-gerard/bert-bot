@@ -1,5 +1,8 @@
-* {
-  color:  #0F0A0A;
+h1, 
+h2, 
+h3, 
+h4 {
+  color: #2886E7;
 }
 
 .App {
@@ -20,8 +23,8 @@
 }
 
 .answer-container {
-  height: 20vh;
-  width: 675px;
+  min-width: 680px;
+  min-height: 20vh;
   margin-top: 5px;
   border: 1px solid black;
   padding: 10px;
