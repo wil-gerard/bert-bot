@@ -13,6 +13,7 @@ BERT Q&A is a web app exploring natural language processing. Users ask a questio
 ## Built With
 
 - React.js
+- Material UI
 - Node.js
 - Tensorflow.js
 
