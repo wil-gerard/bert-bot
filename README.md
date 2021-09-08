@@ -43,4 +43,4 @@ BERT Bot is a web app that allows users to get answers based on the context of a
 
 ![bert-bot-preview](https://user-images.githubusercontent.com/74286884/132595458-48000470-ce23-42fd-b010-fc190333d986.gif)
 
-Visit the site [here](https://bert-bot.netlify.app/)
+[Visit the site](https://bert-bot.netlify.app/)
