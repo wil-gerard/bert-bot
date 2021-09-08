@@ -8,7 +8,7 @@ BERT Bot is a web app that allows users to get answers based on the context of a
 
 ## Features
 
-- Question and answer using AI
+- Q&A using AI
 
 ## Built With
 
