@@ -1,5 +1,5 @@
 <p align="center">
-  <h3 align="center">BERT bot</h3>
+  <h3 align="center">BERT Bot</h3>
 </p>
 
 ## About The Project
