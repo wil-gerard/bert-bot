@@ -1,10 +1,10 @@
 <p align="center">
-  <h3 align="center">BERT Q&A</h3>
+  <h3 align="center">BERT Bot</h3>
 </p>
 
 ## About The Project
 
-BERT Q&A is a web app exploring natural language processing. Users ask a question and receive an answer based on the context of a text passage.
+BERT bot is a web app exploring natural language processing. Users ask a question and receive an answer based on the context of a text passage.
 
 ## Features
 
