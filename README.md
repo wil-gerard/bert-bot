@@ -4,7 +4,7 @@
 
 ## About The Project
 
-BERT bot is a web app exploring natural language processing. Users ask a question and receive an answer based on the context of a text passage.
+BERT Bot is a web app that allows users to get answers based on the context of a given passage of text built using React, Node, Tensorflow.js
 
 ## Features
 
