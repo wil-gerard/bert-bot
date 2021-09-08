@@ -21,15 +21,13 @@
   color: #61dafb;
 }
 
-
-.loader-text {
-  font-weight: 700;
-  
+.question {
+  display: flex;
 }
 
 .answer-container {
   height: 20vh;
-  width: 378px;
+  width: 675px;
   margin-top: 5px;
   border: 1px solid black;
   padding: 10px;
