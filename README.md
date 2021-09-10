@@ -4,11 +4,11 @@
 
 ## About The Project
 
-BERT bot is a web app exploring natural language processing. Users ask a question and receive an answer based on the context of a text passage.
+BERT Bot is a web app that allows users to input questions and recieve answers based on the context of a given passage of text.
 
 ## Features
 
-- Question and answer using AI
+- Q&A using AI
 
 ## Built With
 
@@ -42,3 +42,5 @@ BERT bot is a web app exploring natural language processing. Users ask a questio
 ## Preview
 
 ![bert-bot-preview](https://user-images.githubusercontent.com/74286884/132595458-48000470-ce23-42fd-b010-fc190333d986.gif)
+
+[Visit the site](https://bert-bot.netlify.app/)
