@@ -24,15 +24,6 @@ const App = () => {
   // Runs the async function for loading the model with an empty array after to stop it from reloading during rerendering
   useEffect(() => { loadModel() }, [])
 
-  // e.which === 13 // does the event handler (e) have a key code property (which) of 13?
-
-  // const handleKeyPress = e => {
-  //   if (e.keyCode === 13) {
-  //     this.btn.click()
-  //   }
-  // } 
-
-
   const answerQuestion = async () => {
     if (model !== null) {
       // If the event of enter button AKA "13" is pressed and the model has loaded..
@@ -49,6 +40,11 @@ const App = () => {
     }
   }
 
+  const handleKeyPress = (e) => {
+    if (e.key === 'Enter') {
+      answerQuestion()
+    }
+  }
 
   return (
     <div className="App">
@@ -87,6 +83,7 @@ const App = () => {
                 style={{ width: 600 }}
                 type="text"
                 defaultValue="What is Bayes' theorem?"
+                onKeyPress={handleKeyPress}
               />
               <Button style={{ margin: "8px 0 4px 6px" }} variant="outlined" onClick={answerQuestion} type="submit">submit</Button>
             </div>
