@@ -65,9 +65,10 @@ const App = () => {
           <>
             <Typography variant="h2" style={{ fontWeight: 600 }}>{`BERT Bot`}</Typography>
             <TextField
-              label="Text passage"
+              label="Text passage (paste your own content here)"
               variant="outlined"
               multiline
+              maxRows={10}
               margin="dense"
               inputRef={passageRef}
               style={{ width: 700 }}
@@ -78,7 +79,7 @@ const App = () => {
               <TextField
                 margin="dense"
                 variant="outlined"
-                label="Ask a Question"
+                label="Ask a question"
                 inputRef={questionRef}
                 style={{ width: 600 }}
                 type="text"

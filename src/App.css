@@ -23,8 +23,8 @@ h4 {
 }
 
 .answer-container {
-  min-width: 680px;
-  min-height: 20vh;
+  width: 680px;
+  height: 40vh;
   margin-top: 5px;
   border: 1px solid black;
   padding: 10px;
