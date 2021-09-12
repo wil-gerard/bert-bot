@@ -93,7 +93,7 @@ const App = () => {
             <div className="answer-container">
               <Typography variant="h4" style={{ fontWeight: 600 }}>Answers</Typography>
               <div>
-                {answer ? answer.map((answer, index) => <Typography align="left"> <b>{index + 1}.</b> {answer.text}  (Confidence level: {Math.floor(answer.score * 100) / 100}) </Typography>) : ""}
+                {answer ? answer.map((answer, index) => <Typography align="left" paragraph="true"> <b>{index + 1}.</b> {answer.text}  (Confidence level: {Math.floor(answer.score * 100) / 100}) </Typography>) : ""}
               </div>
             </div>
           </>
