@@ -4,7 +4,7 @@
 
 ## About The Project
 
-BERT Bot is a web app that allows users to input questions and recieve answers based on the context of a given passage of text.
+BERT Bot is a web app that allows users to input questions and receive answers based on the context of a given passage of text.
 
 ## Features
 
